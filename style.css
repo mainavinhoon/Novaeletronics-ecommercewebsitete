@@ -248,7 +248,7 @@
     font-size: 13px;
 }
 .checked{
-    color: #1714b4;
+    color: #ff9100;
 }
 #product-cards .card h2{
     font-size: 20px;
@@ -506,11 +506,16 @@
     margin-left: 10px;
     border-radius: 3px;
     border: none;
-    background-color: #1100ff;
+    background-color: #00ff00;
     color: white;
     letter-spacing: 3px;
     font-weight: bold;
     text-shadow: 0px 0px 1px black;
+}
+
+#subscribe:hover{
+    background-color: #ff9900;
+    color: #000000;
 }
 @media screen and (max-width:465px){
     .input input{
@@ -736,9 +741,13 @@ html{
     width: 150px;
     height: 36px;
     color: white;
-    background-color: rgb(10, 86, 0);
+    background-color: rgb(30, 218, 5);
     border-radius: 5px;
     cursor: pointer;
+}
+#about button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(231, 141, 6);
 }
 /* about */
 
